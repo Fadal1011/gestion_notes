@@ -13,20 +13,7 @@
     </style>
 </head>
 <body>
-    <div class="dashboard">
-        <div class="profil">
-            <img src="../image/profil.png" alt="">
-        </div>
-        <button class="v_profil">Voir profil</button>
-        <div class="navbar">
-            <ul>
-                <li><a href="HomePage.php"><i class="las la-user"></i> Eleves</a></li>
-                <li><a href=""><i class="las la-chalkboard-teacher"></i> Classe</a></li>
-                <li><a href=""><i class="las la-sort-amount-up"></i> Niveau</a></li>
-                <li><a href=""><i class="las la-calendar"></i> Annee scolaire</a></li>
-            </ul>
-        </div>
-    </div>
+    <?php require_once "Dashboard.php" ?>
     <div class="admin-product-form-container">
 
         <form action="" method="post" enctype="multipart/form-data">
@@ -41,8 +28,6 @@
         </form>
   
      </div>
-     <div class="footer">
-        <p>copyright @ 2022 by fadal ndiaye || all right reserved</p>
-    </div>
+     <?php require_once "footer.php"?>
 </body>
 </html>
