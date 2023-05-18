@@ -31,11 +31,11 @@
 
         <form action="" method="post" enctype="multipart/form-data">
            <h3>Ajouter un classe</h3>
-           <input type="text" placeholder="entrer le nom de la classe" name="" class="box">
+           <input type="text" placeholder="entrer le nom du niveau" name="" class="box">
            <select name="" id="" class="box">
-            <option value="">Primaire</option>
-            <option value="">Secondaire Inferieur</option>
-            <option value="">Secondaire superieur</option>
+            <option value="">2022/2023</option>
+            <option value="">2021/2022</option>
+            <option value="">2020/2021</option>
            </select>
            <input type="submit" class="btn" name="Ajouter" value="Ajouter">
         </form>

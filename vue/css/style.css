@@ -171,6 +171,10 @@ color: aliceblue;
     height: 150vh;
 }
 
+.search{
+    margin-top: 1rem;
+    padding: .5rem .2rem;
+}
 
 
 .body .display-table{

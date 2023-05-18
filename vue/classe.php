@@ -18,8 +18,8 @@
             <div class="navbar">
                 <ul>
                     <li><a href="HomePage.php"><i class="las la-user"></i> Eleves</a></li>
-                    <li><a href=""><i class="las la-chalkboard-teacher"></i> Classe</a></li>
-                    <li><a href=""><i class="las la-sort-amount-up"></i> Niveau</a></li>
+                    <li><a href="classe.php"><i class="las la-chalkboard-teacher"></i> Classe</a></li>
+                    <li><a href="niveaux.php"><i class="las la-sort-amount-up"></i> Niveau</a></li>
                     <li><a href=""><i class="las la-calendar"></i> Annee scolaire</a></li>
                 </ul>
             </div>

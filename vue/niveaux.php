@@ -19,39 +19,37 @@
                 <ul>
                     <li><a href="HomePage.php"><i class="las la-user"></i> Eleves</a></li>
                     <li><a href="classe.php"><i class="las la-chalkboard-teacher"></i> Classe</a></li>
-                    <li><a href="Niveaux.php"><i class="las la-sort-amount-up"></i> Niveau</a></li>
+                    <li><a href="niveaux.php"><i class="las la-sort-amount-up"></i> Niveau</a></li>
                     <li><a href=""><i class="las la-calendar"></i> Annee scolaire</a></li>
                 </ul>
             </div>
         </div>
         <div class="body">
-            <a href="ajoutEtuidant.php" class="aj"><button class="ajout">ajouter un éleve</button></a>
-            <input type="search" name="" id="" class="search" placeholder="search">
+            <a href="ajouterNiveau.php" class="aj"><button class="ajout">ajouter un Niveau</button></a>
+            <select name="" id="" class="search">
+                <option value="">2022/2023</option>
+                <option value="">2021/2022</option>
+                <option value="">2020/2021</option>
+            </select>
             <table class="display-table">
                <thead>
                <tr>
                   <th>Nom</th>
-                  <th>Prenom</th>
-                  <th>Classe</th>
-                  <th>Niveau</th>
+                  <th>Année</th>
                   <th>Action</th>
                </tr>
                </thead>
                <tr>
-                  <td>Ndiaye</td>
-                  <td>AMI NDIAYE</td>
-                  <td>CP</td>
-                  <td>primaire</td>
+                  <td>Primaire</td>
+                  <td>2022/2023</td>
                   <td>
                      <a href="" class="btn"> <i class="fas fa-edit"></i> edit </a>
                      <a href="" class="btn"> <i class="fas fa-trash"></i> delete </a>
                   </td>
                </tr>
                <tr>
-                  <td>Ndiaye</td>
-                  <td>AMI NDIAYE</td>
-                  <td>CP</td>
-                  <td>primaire</td>
+                  <td>Secondaire</td>
+                  <td>2022/2023</td>
                   <td>
                      <a href="" class="btn"> <i class="fas fa-edit"></i> edit </a>
                      <a href="" class="btn"> <i class="fas fa-trash"></i> delete </a>
